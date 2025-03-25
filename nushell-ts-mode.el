@@ -87,7 +87,12 @@
     "def"
     "let"
     "mut"
-    "source"))
+    "const"
+    "source"
+    "use"
+    "export"
+    "if"
+    "else"))
 
 (defvar nushell-ts-mode--types
   '("any"
