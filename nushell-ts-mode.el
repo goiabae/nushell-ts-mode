@@ -242,6 +242,7 @@ Return nil if there is no name or if NODE is not a defun node."
    :language 'nu
    :feature 'definition
    '((stmt_let (identifier) @font-lock-variable-name-face)
+     (stmt_const (identifier) @font-lock-variable-name-face)
      (assignment (val_variable) @font-lock-variable-name-face)
      (decl_def (cmd_identifier) @font-lock-function-name-face)
      (parameter (identifier) @font-lock-variable-name-face))
